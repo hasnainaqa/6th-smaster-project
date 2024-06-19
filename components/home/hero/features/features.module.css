@@ -1,0 +1,73 @@
+.fea{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.maxwi{
+    max-width: 250px;
+    text-align: center;
+}
+
+.circulard {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--red_light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .circular_image {
+    width: 25px;
+    height: 25px;
+    fill: var(--white);
+    
+  }
+  
+  .hea3{
+    font-weight: 700;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .hea5{
+    padding-bottom: 10px;
+    color: var(--grey);
+    text-align: center;
+
+
+  }
+
+  /* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+
+    
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+
+
+
+}
+
+
+
+
+
+    

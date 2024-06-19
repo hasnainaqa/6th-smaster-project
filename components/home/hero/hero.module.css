@@ -1,0 +1,82 @@
+.icon{
+    fill: var(--red) !important;
+    margin-top: 20px;
+}
+.heroh1{
+margin-top: 11px;    
+font-weight: 900;
+font-size: 40px;
+text-align: center;
+}
+.heroh3{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center; 
+    margin-top: 10px; 
+    max-width: 700px;
+}
+.cus_btn{
+    background-color: var(--red);
+    color: var(--white);
+    margin-top: 14px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+
+    .icon{
+        fill: var(--red) !important;
+        margin-top: 14px;
+    }
+    .heroh1{
+        margin-top: 8px;    
+        font-weight: 900;
+        font-size: 35px;
+        text-align: center;
+        }
+    .heroh3{
+            font-size: 24px;
+            font-weight: 400;
+            text-align: center; 
+            margin-top: 10px; 
+            max-width: 400px;
+        }
+        .cus_btn{
+            background-color: var(--red);
+            color: var(--white);
+            margin-top: 16px;
+        }   
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+
+    .icon{
+        fill: var(--red) !important;
+        margin-top: 20px;
+    }
+    .heroh1{
+    margin-top: 11px;    
+    font-weight: 900;
+    font-size: 38px;
+    text-align: center;
+    }
+    .heroh3{
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center; 
+        margin-top: 10px; 
+        max-width: 700px;
+    }
+    .cus_btn{
+        background-color: var(--red);
+        color: var(--white);
+        margin-top: 16px;
+    }
+ 
+}
+
+
+  
+
