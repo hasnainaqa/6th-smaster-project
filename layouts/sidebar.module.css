@@ -1,0 +1,17 @@
+.logo {
+    font-weight: 900;
+    font-size: 17px;
+  
+  }
+  .clr{
+    fill: var(--red) !important;
+  }
+  .active_clr{
+    background-color: var(--red) !important;
+  }
+  .cus_btn{
+    background-color: var(--red);
+    color: var(--white);
+    margin-top: 14px;
+}
+

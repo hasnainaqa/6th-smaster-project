@@ -1,0 +1,9 @@
+.navpad{
+    padding-left: 285px;
+    padding-top: 20px;
+}
+.barimg{
+    width: 25px;
+    height: 25px;
+    fill: var(--feedback);
+}

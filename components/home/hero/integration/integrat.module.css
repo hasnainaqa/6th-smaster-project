@@ -1,0 +1,19 @@
+.inte{
+    margin-top: 90px;
+   
+
+}
+.inte_box{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--feedback);
+    color: var(--white);
+    
+}
+.he3{
+    font-weight: 700;
+    text-align: center;
+}
