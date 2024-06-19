@@ -16,7 +16,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <NextAuthProvider>
       <body className={inter.className}>{children}</body>
+      </NextAuthProvider>
     </html>
   );
 }
