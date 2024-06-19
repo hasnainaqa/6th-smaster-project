@@ -1,0 +1,14 @@
+
+
+.end{
+    display: flex;
+    justify-content: end;
+  }
+  .logo {
+    font-weight: 900;
+    font-size: 17px;
+  
+  }
+  .clr{
+    fill: var(--red) !important;
+  }
