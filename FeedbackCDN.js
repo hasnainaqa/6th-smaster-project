@@ -36,6 +36,8 @@ function displayPopup() {
             <label for="feedback">Feedback:</label><br>
             <input type="text" id="feedback" name="feedback"><br><br>
 
+            <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+
             <input type="submit" value="Submit">
             <button type="button" onclick="closePopup()">Close</button>
         </form>

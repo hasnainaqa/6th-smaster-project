@@ -2,7 +2,18 @@ import { connectMongoDB } from "@/api_lib/mongodb";
 import User from "@/models/users";
 import { NextResponse } from "next/server";
 
-const projectid = "10"
+function generateRandomString(length) {
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+    let result = '';
+    const charactersLength = characters.length;
+    for (let i = 0; i < length; i++) {
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+}
+
+const projectid = generateRandomString(7);
+
 function projectId() {
 
     return(
